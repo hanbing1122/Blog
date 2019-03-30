@@ -28,10 +28,17 @@ npm install hexo-deployer-git
 然后就可以 hexo server 试试
 但是（对于我）会出现一个问题：打开一片空白
 这是因为 Github 同步的时候并没有把主题同步上去
-所以需要重新下载主题并拷贝到 themes 文件夹中。
+~~所以需要重新下载主题并拷贝到 themes 文件夹中。~~
+[解决 themes 丢失问题](http://w4lle.com/2016/06/06/Hexo-themes/index.html)
 
-在编辑完成后，直接执行 hexo deploy 就可以。
-在 deploy 的时候，还会遇到一个问题
+在编辑完成后，请检查 CNAME 文件是否存在，否则部署后将会遇到问题
+如果不存在请在 source 文件夹中创建，内容为
+```
+example.com （你的网站域名）
+```
+
+随后再 hexo deploy
+在 deploy 的时候，可能还会遇到一个问题
 ![问题2](https://ww1.sinaimg.cn/large/007i4MEmly1g1kkmc2liuj30kn0chq3j.jpg)
 直接按照提示照做：
 ```
