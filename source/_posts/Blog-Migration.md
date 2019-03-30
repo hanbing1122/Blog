@@ -31,8 +31,9 @@ npm install hexo-deployer-git
 ~~所以需要重新下载主题并拷贝到 themes 文件夹中。~~
 [解决 themes 丢失问题](http://w4lle.com/2016/06/06/Hexo-themes/index.html)
 
-在编辑完成后，请检查 CNAME 文件是否存在，否则部署后将会遇到问题
-如果不存在请在 source 文件夹中创建，内容为
+在同步到 Github 前有一个坑：没有CNAME文件。
+这会导致在部署完成后 404。
+所以要在 source 文件夹中创建一个，内容如下：
 ```
 example.com （你的网站域名）
 ```
@@ -52,3 +53,4 @@ git add .
 git commit -m "更新Hexo源文件"
 git push origin master
 ```
+（P.S. 据说 Github Pages 在国内访问速度不怎么样……不过我觉得还行）
