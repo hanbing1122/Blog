@@ -8,6 +8,7 @@ tags:
 前几天突然脑子一热把博客源文件备份到了 Github 上。
 
 然后……第二天 Cloud Studio 就崩溃了。
+（2019-3-31 服务恢复正常）
 ![驾崩](https://dn-coding-net-tweet.codehub.cn/photo/2019/dc08cc20-8277-4fd3-bf34-aa14a629ada3.png)
 加上前几天一键部署功能突然失效……看来不只是我的问题……
 ![问题](https://ww1.sinaimg.cn/large/007i4MEmly1g1kk6k7o3kj31070jx40r.jpg)
